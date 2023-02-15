@@ -1,0 +1,25 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+.login{
+    color: #28a745;
+    font-size: 20px;
+}
+
+.error{
+    color: red;
+    font-size: 20px;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
